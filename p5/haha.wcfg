@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/ISE/liucpu/mips_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/mips_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/de/lw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lw</obj_property>
+      <obj_property name="ObjectShortName">lw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/de/sw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sw</obj_property>
+      <obj_property name="ObjectShortName">sw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/cmp/tuse_rs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tuse_rs[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tuse_rs[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/cmp/tuse_rt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tuse_rt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tuse_rt[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/cmp/tnewD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tnewD[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tnewD[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/cmp/tnewE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tnewE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tnewE[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/de/tnew" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tnew[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tnew[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/de/tuse_rs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tuse_rs[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tuse_rs[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/de/tuse_rt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tuse_rt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tuse_rt[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/ex_dm/regdataE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regdataE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regdataE[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/dm_wb/regdataM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regdataM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regdataM[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/dmf/rtrealDM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rtrealDM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rtrealDM[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/dmf/rtyuanDM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rtyuanDM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rtyuanDM[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/cmp/stall" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/cmp/D" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">D</obj_property>
+      <obj_property name="ObjectShortName">D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/cmp/E" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">E</obj_property>
+      <obj_property name="ObjectShortName">E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/de/addu" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">addu</obj_property>
+      <obj_property name="ObjectShortName">addu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/de/subu" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">subu</obj_property>
+      <obj_property name="ObjectShortName">subu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/de/ori" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ori</obj_property>
+      <obj_property name="ObjectShortName">ori</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/de/lw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lw</obj_property>
+      <obj_property name="ObjectShortName">lw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/de/sw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sw</obj_property>
+      <obj_property name="ObjectShortName">sw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/de/beq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">beq</obj_property>
+      <obj_property name="ObjectShortName">beq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/de/lui" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lui</obj_property>
+      <obj_property name="ObjectShortName">lui</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/de/j" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">j</obj_property>
+      <obj_property name="ObjectShortName">j</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/de/jal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">jal</obj_property>
+      <obj_property name="ObjectShortName">jal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/de/jr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">jr</obj_property>
+      <obj_property name="ObjectShortName">jr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/de/nop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nop</obj_property>
+      <obj_property name="ObjectShortName">nop</obj_property>
+   </wvobject>
+</wave_config>

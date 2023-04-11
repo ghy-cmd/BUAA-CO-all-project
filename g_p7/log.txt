@@ -1,0 +1,58 @@
+Running: F:\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe --nodebug --prj mips.prj -o mips.exe mips_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:\ISE\gswp7\ALU.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\bridge.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\cmp.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\cp0.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\decodeUnit.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\DM.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\EXMEM.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\forward.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\getInstructionID.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\IDEX.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\IFID.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\IFU.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\lib.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\md.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\memStage.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\MEMWB.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\mips.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\mipsAutoTest.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\mips_tb.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\NPC.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\RF.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\stall.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\tb.v" into library work
+Analyzing Verilog file "D:\ISE\gswp7\timer.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module IFU
+Compiling module IFID
+Compiling module getInstructionID
+Compiling module decodeUnit
+Compiling module RF
+Compiling module cmp
+Compiling module NPC
+Compiling module IDEX
+Compiling module md
+Compiling module ALU
+Compiling module EXMEM
+Compiling module DM
+Compiling module cp0
+Compiling module TC
+Compiling module bridge
+Compiling module memStage
+Compiling module MEMWB
+Compiling module forward
+Compiling module stall
+Compiling module mips
+Compiling module mips_tb
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 21 Verilog Units
+Built simulation executable mips.exe
+Fuse Memory Usage: 33492 KB
+Fuse CPU Usage: 531 ms

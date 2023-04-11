@@ -1,0 +1,25 @@
+
+
+
+// Instantiate the module
+cp0 instance_name (
+    .instrbus(instrbus), 
+    .pc(pc), 
+    .clk(clk), 
+    .reset(reset), 
+    .RD2(RD2), 
+    .ADELpc(ADELpc), 
+    .RI(RI), 
+    .OV(OV), 
+    .ADELEX(ADELEX), 
+    .ADESEX(ADESEX), 
+    .ADELDM(ADELDM), 
+    .ADESDM(ADESDM), 
+    .IRQ0(IRQ0), 
+    .IRQ1(IRQ1), 
+    .interrupt(interrupt), 
+    .BD(BD), 
+    .strange(strange)
+    );
+
+

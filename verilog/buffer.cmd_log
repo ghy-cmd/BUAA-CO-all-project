@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "D:/ISE/verilog/buffer.xst" -ofn "D:/ISE/verilog/buffer.syr" 
+xst -intstyle ise -ifn "D:/ISE/verilog/buffer.xst" -ofn "D:/ISE/verilog/buffer.syr" 
+xst -intstyle ise -ifn "D:/ISE/verilog/buffer.xst" -ofn "D:/ISE/verilog/buffer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s50-vqg100-4 buffer.ngc buffer.ngd  
+map -intstyle ise -p xa3s50-vqg100-4 -cm area -ir off -pr off -c 100 -o buffer_map.ncd buffer.ngd buffer.pcf 
+par -w -intstyle ise -ol high -t 1 buffer_map.ncd buffer.ncd buffer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml buffer.twx buffer.ncd -o buffer.twr buffer.pcf 
+xst -intstyle ise -ifn "D:/ISE/verilog/buffer.xst" -ofn "D:/ISE/verilog/buffer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s50-vqg100-4 buffer.ngc buffer.ngd  
+map -intstyle ise -p xa3s50-vqg100-4 -cm area -ir off -pr off -c 100 -o buffer_map.ncd buffer.ngd buffer.pcf 
+par -w -intstyle ise -ol high -t 1 buffer_map.ncd buffer.ncd buffer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml buffer.twx buffer.ncd -o buffer.twr buffer.pcf 
+xst -intstyle ise -ifn "D:/ISE/verilog/buffer.xst" -ofn "D:/ISE/verilog/buffer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s50-vqg100-4 buffer.ngc buffer.ngd  
+map -intstyle ise -p xa3s50-vqg100-4 -cm area -ir off -pr off -c 100 -o buffer_map.ncd buffer.ngd buffer.pcf 
+par -w -intstyle ise -ol high -t 1 buffer_map.ncd buffer.ncd buffer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml buffer.twx buffer.ncd -o buffer.twr buffer.pcf 

@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+bridge instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .Addr(Addr), 
+    .WE(WE), 
+    .Din(Din), 
+    .Dout(Dout), 
+    .IRQ0(IRQ0), 
+    .IRQ1(IRQ1), 
+    .instrbus(instrbus)
+    );
+
+

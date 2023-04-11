@@ -1,0 +1,46 @@
+Running: F:\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/ISE/p6/mips_tb_isim_beh.exe -prj D:/ISE/p6/mips_tb_beh.prj work.mips_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/ISE/p6/zhuanfa.v" into library work
+Analyzing Verilog file "D:/ISE/p6/RF_EX.v" into library work
+Analyzing Verilog file "D:/ISE/p6/md.v" into library work
+Analyzing Verilog file "D:/ISE/p6/IM_RF.v" into library work
+Analyzing Verilog file "D:/ISE/p6/IFU.v" into library work
+Analyzing Verilog file "D:/ISE/p6/GRF.v" into library work
+Analyzing Verilog file "D:/ISE/p6/EX_DM.v" into library work
+Analyzing Verilog file "D:/ISE/p6/DM_WB.v" into library work
+Analyzing Verilog file "D:/ISE/p6/DM.v" into library work
+Analyzing Verilog file "D:/ISE/p6/decode.v" into library work
+Analyzing Verilog file "D:/ISE/p6/another.v" into library work
+Analyzing Verilog file "D:/ISE/p6/ALU.v" into library work
+Analyzing Verilog file "D:/ISE/p6/mips.v" into library work
+Analyzing Verilog file "D:/ISE/p6/mips_tb.v" into library work
+Analyzing Verilog file "F:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/ISE/p6/mips.v" Line 137: Port rsyuanEX is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE/p6/mips.v" Line 228: Port rsyuanRF is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE/p6/mips.v" Line 315: Port rsyuanRF is not connected to this instance
+Completed static elaboration
+Compiling module IFU
+Compiling module IM_RF
+Compiling module decode
+Compiling module GRF
+Compiling module zhuanfa
+Compiling module another
+Compiling module RF_EX
+Compiling module ALU
+Compiling module md
+Compiling module EX_DM
+Compiling module DM
+Compiling module DM_WB
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 15 Verilog Units
+Built simulation executable D:/ISE/p6/mips_tb_isim_beh.exe
+Fuse Memory Usage: 35236 KB
+Fuse CPU Usage: 483 ms

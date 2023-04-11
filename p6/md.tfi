@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+md instance_name (
+    .instrbus(instrbus), 
+    .RD1(RD1), 
+    .RD2(RD2), 
+    .busy(busy), 
+    .start(start), 
+    .hi(hi), 
+    .lo(lo), 
+    .clk(clk), 
+    .reset(reset)
+    );
+
+

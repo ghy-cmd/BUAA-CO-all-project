@@ -1,0 +1,2 @@
+`define instrbuswidth 51:0
+`define instrbus addu,subu,ori,lw,sw,beq,lui,j,jal,jr,nop,addi,org,add,jalr,bltz,bgezall,sub,addiu,andg,andi,xorg,xori,norg,slt,slti,sltiu,sltu,sll,sllv,srl,srlv,sra,srav,bne,blez,bgtz,bgez,lb,lbu,lh,lhu,sb,sh,mult,multu,div,divu,mfhi,mflo,mthi,mtlo

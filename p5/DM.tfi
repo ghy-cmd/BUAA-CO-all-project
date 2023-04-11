@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+DM instance_name (
+    .A(A), 
+    .RD(RD), 
+    .WD(WD), 
+    .pc(pc), 
+    .WE(WE), 
+    .clk(clk), 
+    .reset(reset)
+    );
+
+

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/ISE/verilog/And.xst" -ofn "D:/ISE/verilog/And.syr" 

@@ -1,0 +1,34 @@
+
+
+
+// Instantiate the module
+zhuanfa instance_name (
+    .rsyuanRF(rsyuanRF), 
+    .rtyuanRF(rtyuanRF), 
+    .rsARF(rsARF), 
+    .rtARF(rtARF), 
+    .A3D(A3D), 
+    .A3E(A3E), 
+    .A3M(A3M), 
+    .regdataD(regdataD), 
+    .regdataE(regdataE), 
+    .regdataM(regdataM), 
+    .rsrealRF(rsrealRF), 
+    .rtrealRF(rtrealRF), 
+    .rsyuanEX(rsyuanEX), 
+    .rtyuanEX(rtyuanEX), 
+    .rsAEX(rsAEX), 
+    .rtAEX(rtAEX), 
+    .rsrealEX(rsrealEX), 
+    .rtrealEX(rtrealEX), 
+    .rtyuanDM(rtyuanDM), 
+    .rtADM(rtADM), 
+    .rtrealDM(rtrealDM), 
+    .tuse_rs(tuse_rs), 
+    .tuse_rt(tuse_rt), 
+    .tnewD(tnewD), 
+    .tnewE(tnewE), 
+    .stall(stall)
+    );
+
+

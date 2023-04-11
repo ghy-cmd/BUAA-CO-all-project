@@ -1,0 +1,42 @@
+ISim log file
+Running: D:\ISE\p7\mips_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/ISE/p7/mips_tb_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  55@00003000: $10 <= 00000005
+                  75@00003008: $ 6 <= 00000401
+                  95@00003010: $11 <= 00000009
+                 115@00003018: $12 <= 0000000e
+                 125@0000301c: $13 <= fffffffc
+                 135@00003020: $ 9 <= 00000009
+                 145@00003024: $ 9 <= 0000000b
+                 155@00003028: $ 9 <= 0000000b
+                 165@0000302c: $ 9 <= 0000000f
+                 175@00003030: $ 9 <= 0000000f
+                 225@00004180: $11 <= 00000009
+                 245@00004188: $14 <= 00003010
+                 255@0000418c: $15 <= 00000400
+                 355@00004180: $11 <= 00000009
+                 375@00004188: $14 <= 00003010
+                 385@0000418c: $15 <= 00000400
+                 485@00004180: $11 <= 00000009
+                 505@00004188: $14 <= 00003010
+                 515@0000418c: $15 <= 00000400
+                 615@00004180: $11 <= 00000009
+                 635@00004188: $14 <= 00003010
+                 645@0000418c: $15 <= 00000400
+                 745@00004180: $11 <= 00000009
+                 765@00004188: $14 <= 00003010
+                 775@0000418c: $15 <= 00000400
+                 875@00004180: $11 <= 00000009
+                 895@00004188: $14 <= 00003010
+                 905@0000418c: $15 <= 00000400

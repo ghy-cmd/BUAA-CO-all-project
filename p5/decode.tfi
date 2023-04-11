@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+decode instance_name (
+    .instr(instr), 
+    .instrbus(instrbus), 
+    .RegWrite(RegWrite), 
+    .MemWrite(MemWrite), 
+    .Branch(Branch), 
+    .A1(A1), 
+    .A2(A2), 
+    .A3(A3)
+    );
+
+

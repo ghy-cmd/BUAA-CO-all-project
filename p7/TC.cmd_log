@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/p7/TC.tfi -lib work D:/ISE/p7//P7_standard_timer_2019.v -module TC -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

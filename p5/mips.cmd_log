@@ -1,0 +1,3 @@
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/mips.tfi -lib work D:/ISE/liucpu//mips.v -module mips -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/mips.tfi -lib work D:/ISE/liucpu//mips.v -module mips -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/mips.tfi -lib work D:/ISE/liucpu//mips.v -module mips -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

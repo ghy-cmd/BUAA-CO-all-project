@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+ALU instance_name (
+    .RD1(RD1), 
+    .RD2(RD2), 
+    .OUT(OUT), 
+    .instrbus(instrbus)
+    );
+
+

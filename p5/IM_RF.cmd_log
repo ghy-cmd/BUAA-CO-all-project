@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/IM_RF.tfi -lib work D:/ISE/liucpu//IM_RF.v -module IM_RF -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/IM_RF.tfi -lib work D:/ISE/liucpu//IM_RF.v -module IM_RF -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

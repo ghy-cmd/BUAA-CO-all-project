@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+another instance_name (
+    .imm(imm), 
+    .immout(immout), 
+    .instrbus(instrbus)
+    );
+
+

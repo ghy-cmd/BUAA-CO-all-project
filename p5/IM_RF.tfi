@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+IM_RF instance_name (
+    .instr(instr), 
+    .pc(pc), 
+    .pc4(pc4), 
+    .instrF(instrF), 
+    .pcF(pcF), 
+    .pc4F(pc4F), 
+    .clk(clk), 
+    .reset(reset)
+    );
+
+

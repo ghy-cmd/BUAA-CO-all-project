@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/DM.tfi -lib work D:/ISE/liucpu//DM.v -module DM -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

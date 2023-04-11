@@ -1,0 +1,15 @@
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/IFU.tfi -lib work D:/ISE/liucpu//IFU.v -module IFU -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/IFU.tfi -lib work D:/ISE/liucpu//IFU.v -module IFU -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/IFU.tfi -lib work D:/ISE/liucpu//IFU.v -module IFU -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work D:/ISE/liucpu/IFU.v -lang verilog -prj liucpu -o IFU.spl -module IFU -template F:/ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan3 IFU.spl D:/ISE/liucpu/IFU.sym 
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/IFU.tfi -lib work D:/ISE/liucpu//IFU.v -module IFU -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/IFU.tfi -lib work D:/ISE/liucpu//IFU.v -module IFU -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/IFU.tfi -lib work D:/ISE/liucpu//IFU.v -module IFU -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/IFU.tfi -lib work D:/ISE/liucpu//IFU.v -module IFU -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/IFU.tfi -lib work D:/ISE/liucpu//IFU.v -module IFU -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/IFU.tfi -lib work D:/ISE/liucpu//IFU.v -module IFU -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/IFU.tfi -lib work D:/ISE/liucpu//IFU.v -module IFU -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/IFU.tfi -lib work D:/ISE/liucpu//IFU.v -module IFU -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/IFU.tfi -lib work D:/ISE/liucpu//IFU.v -module IFU -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj liucpu -o D:/ISE/liucpu/IFU.tfi -lib work D:/ISE/liucpu//IFU.v -module IFU -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

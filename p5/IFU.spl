@@ -1,0 +1,13 @@
+[Inputs]
+clk
+reset
+Branch
+EQU
+=imm[31:0]=
+=instr[31:0]=
+=RD1[31:0]=
+[Outputs]
+[BiDir]
+[ATTRIBUTES]
+VeriModel IFU
+

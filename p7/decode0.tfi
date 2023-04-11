@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+decode0 instance_name (
+    .instr(instr), 
+    .ADELpc(ADELpc), 
+    .instrbus(instrbus)
+    );
+
+

@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+IFU instance_name (
+    .imm(imm), 
+    .instr(instr), 
+    .RD1(RD1), 
+    .clk(clk), 
+    .reset(reset), 
+    .Branch(Branch), 
+    .EQU(EQU), 
+    .out(out), 
+    .pc8(pc8), 
+    .wpc(wpc), 
+    .instrbus(instrbus)
+    );
+
+

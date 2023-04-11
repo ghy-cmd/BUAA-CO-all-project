@@ -1,0 +1,50 @@
+Running: F:\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe --nodebug --prj mips.prj -o mips.exe mipsAutoTest 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:\ISE\p7test_1\ALU.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\another.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\bridge.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\cp0.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\decode.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\DM.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\DM_WB.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\EX_DM.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\GRF.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\IFU.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\IM_RF.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\instrbus.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\lib.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\md.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\mips.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\mipsAutoTest.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\mips_tb.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\P7_standard_timer_2019.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\RF_EX.v" into library work
+Analyzing Verilog file "D:\ISE\p7test_1\zhuanfa.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module IFU
+Compiling module IM_RF
+Compiling module decode
+Compiling module GRF
+Compiling module zhuanfa
+Compiling module another
+Compiling module RF_EX
+Compiling module ALU
+Compiling module md
+Compiling module EX_DM
+Compiling module DM
+Compiling module TC
+Compiling module bridge
+Compiling module cp0
+Compiling module DM_WB
+Compiling module mips
+Compiling module mipsAutoTest
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 17 Verilog Units
+Built simulation executable mips.exe
+Fuse Memory Usage: 34608 KB
+Fuse CPU Usage: 499 ms

@@ -1,0 +1,3 @@
+verilog isim_temp "shixu.v"
+verilog isim_temp "counting_tb.v"
+verilog isim_temp "F:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

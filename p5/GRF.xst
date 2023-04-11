@@ -1,0 +1,5 @@
+set -tmpdir "D:/ISE/liucpu/xst/projnav.tmp"
+set -xsthdpdir "D:/ISE/liucpu/xst"
+elaborate
+-ifn GRF.prj
+-ifmt mixed
